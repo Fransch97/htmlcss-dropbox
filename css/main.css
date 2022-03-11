@@ -68,24 +68,73 @@
 
 
 
+.col-option .padding-col-option ul li{
+    margin-left: 0px ;
+}
 
+.col-option .padding-col-option ul li.second{
+    font-size: 0.8rem;
+}
 
+.col-option .padding-col-option ul li .try-free{
+    background-color: blue;
+    line-height: 30px;
+    color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    margin-top: 30px;
+}
 
+.col-option .padding-col-option ul li .try-free-second{
+    color: blue;
+}
 
+.col-option .padding-col-option ul li.first-second{
+    font-weight: 800 ;
+}
 
+.col-option .padding-col-option ul li.second::before{
+    content: "\02713";
+}
 
+hr{
+    width: 60px; 
+    margin: 30px 0;
+    color: lightgray;
+}
 
+/* last col-option */
 
+.col-bottom{
+    border: 1px solid lightgrey;
+    width: 95%;
+}
+.col-bottom .icon{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
 
+.col-bottom .last-col-padding{
+    padding: 30px 30px;
+}
 
+.col-bottom .last-col-padding h2{
+    margin-bottom: 20px;
+}
+.col-bottom .last-col-padding h4{
+    margin-bottom: 40px;
 
+}
 
-
-
-
-
-
-
+.col-bottom .last-col-padding .try-free{
+    background-color: blue;
+    line-height: 30px;
+    color: white;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-weight: 800;
+}
 
 
 
