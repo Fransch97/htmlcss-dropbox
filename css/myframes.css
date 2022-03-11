@@ -9,6 +9,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav, li,a{
+    display: inline-block;
+    
+}
 
 
 /* UTILITY'S */
@@ -49,7 +53,9 @@
     position: absolute;
 }
 
-
+.width100{
+    width: 100%;
+}
 
 /* DEBUG */
 

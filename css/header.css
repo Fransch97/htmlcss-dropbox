@@ -2,4 +2,12 @@
     background-color: red;
 } */
 
+
+
+
+
 /* HEADER  */
+li a{
+    line-height: 80px;
+    margin: 0 20px;
+}
