@@ -77,34 +77,34 @@ nav, li,a{
 
 /* sizes */
 .debug-h-100{
-    min-height: 100;
+    min-height: 100px;
 }
 .debug-h-200{
-    min-height: 200;
+    min-height: 200px;
 }
 .debug-h-200{
-    min-height: 200;
+    min-height: 200px;
 }
 .debug-h-300{
-    min-height: 300;
+    min-height: 300px;
 }
 .debug-h-400{
-    min-height: 400;
+    min-height: 400px;
 }
 
 
 .debug-w-100{
-    min-width: 100;
+    min-width: 100px;
 }
 .debug-w-200{
-    min-width: 200;
+    min-width: 200px;
 }
 .debug-w-200{
-    min-width: 200;
+    min-width: 200px;
 }
 .debug-w-300{
-    min-width: 300;
+    min-width: 300px;
 }
 .debug-w-400{
-    min-width: 400;
+    min-width: 400px;
 }
