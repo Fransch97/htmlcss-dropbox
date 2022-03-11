@@ -29,13 +29,12 @@ nav li a{
     font-weight: 600;
 }
 
-
-
-
-
-
-
-
+nav li a.extra{
+    background-color: blue;
+    line-height: 30px;
+    color: white;
+    padding: 0 8px;
+}
 
 
 
@@ -44,5 +43,35 @@ nav li a{
 .jumbo{
     margin-top: 80px;
     padding: 50px 0;
+    background-color: #dce1e8;
 }
-.jumbo-content
+
+.jumbo-content .col-container{
+    margin-top: 50px;
+}
+
+.jumbo-content h1 {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.jumbo-content p{
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.jumbo-content .link-container .extra{
+    background-color: blue;
+    line-height: 40px;
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.icon-arrow-down{
+    font-size: 40px;
+    padding: 40px 0;
+}
