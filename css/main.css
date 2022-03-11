@@ -46,5 +46,18 @@
 
 
 /* SECTION THREE  */
+.col-section-three{
+    width: calc(100%/3 - 5%);
+
+}
+.col-section-three img{
+    width: 100%;
+}
+
+/* 
+works look at option part deom css
+.center{
+    margin: 0 5%;
+} */
 
 /*END SECTION THREE  */
