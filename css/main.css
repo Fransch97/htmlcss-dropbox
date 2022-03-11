@@ -212,9 +212,20 @@ hr{
 /*END SECTION THREE  */
 
 
+/* TITLE  */
+.titles{
+    padding: 50px 0;
+}
 
+.extra-small{
+    width: 40%;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
 
-
+.extra-small a{
+    color: blue;
+}
 
 
 
@@ -224,9 +235,44 @@ hr{
 
 /* SECTION FOUR  */
 .section-four aside{
-    width: calc(100%/3);
-    
+    width: 25%;
+    height: 100%;
 }
+.section-four section{
+    width: 50%;
+}
+.section-four{
+    height: 50vh;
+    background-color: #F5F5F5;
+}
+.section-four aside .cubic{
+    height: 50%;
+    width: 50%;
+}
+
+.content-section-four{
+    padding: 40px;
+}
+
+.content-section-four .contains-logo{
+    width: 200px;
+}
+
+.content-section-four p {
+    font-weight: 800;
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*END SECTION FOUR  */
 
 
@@ -243,6 +289,10 @@ hr{
 .section-five ul li .five-li p{
     display: none;
 }
+
+
+
+
 
 /* SECTION FIVE  */
 
