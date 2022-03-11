@@ -310,24 +310,7 @@ section .scrollcontainer{
 
 /*END SECTION FIVE  */
 
-
-/* SECTION SIX  */
-.section-six .window-small ul li{
-    display: block;
+.section-five.section-padding.six{
+    background-color: white;
 }
-
-.section-six .window-small ul li.top-li{
-    font-size: 1.3rem;
-    font-weight: 900;
-}
-.section-six .window-small ul li{
-    font-weight: 900;
-
-}
-.section-six .window-small ul li p{
-    display: none;
-}
-
-/* END SECTION SIX  */
-
 
