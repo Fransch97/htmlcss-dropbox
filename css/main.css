@@ -240,6 +240,7 @@ hr{
 }
 .section-four section{
     width: 50%;
+    
 }
 .section-four{
     height: 50vh;
@@ -248,6 +249,7 @@ hr{
 .section-four aside .cubic{
     height: 50%;
     width: 50%;
+    text-align: center;
 }
 
 .content-section-four{
@@ -255,14 +257,17 @@ hr{
 }
 
 .content-section-four .contains-logo{
-    width: 200px;
+    width: 100px;
 }
 
 .content-section-four p {
     font-weight: 800;
-    padding: 50px 0;
+    padding: 30px 0;
 }
+section .scrollcontainer{
+    overflow: scroll;
 
+}
 
 
 
