@@ -5,10 +5,29 @@
 /* FOOTER  */
 
 /* footer-top */
+footer{
+    background-color: black;
+    color: white;
+}
 footer div div ul li {
     display: block;
     line-height: 25px;
+    font-weight: 600;
+}
+footer div div ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
 }
 footer div div ul{
     width: calc(100%/5);
+}
+
+footer .window-small.two-footer{
+    width: 68%;
+}
+footer div div ul li h3{
+    font-weight: 900;
+    padding-bottom: 20px;
+
 }
