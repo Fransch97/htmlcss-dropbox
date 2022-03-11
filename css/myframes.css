@@ -25,6 +25,10 @@ nav, li,a{
     margin: 0 auto;
     width: 80%; /*for now*/
 }
+.window-small{
+    margin: 0 auto;
+    width: 60%; /*for now*/
+}
 
 /* float  */
 .clearfix::after{
