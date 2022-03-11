@@ -14,5 +14,11 @@
     width: calc(100%/3 - 10%);
 }
 .center{
-    margin: 0 5%;
+    margin: 0 15%;
+}
+.option-li{
+    display: block;
+    line-height: 20px;
+}
+.option-li a{
 }
