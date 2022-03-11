@@ -7,7 +7,24 @@
 
 
 /* HEADER  */
-li a{
-    line-height: 80px;
-    margin: 0 20px;
+
+/* nav  */
+nav{
+    top: 0;
 }
+li {
+    line-height: 80px;
+    margin: 0 30px;
+}
+
+.logo{
+    vertical-align: -7px;
+}
+
+
+/* jambo */
+.jumbo{
+    margin-top: 80px;
+    padding: 50px 0;
+}
+.jumbo-content

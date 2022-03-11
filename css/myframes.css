@@ -19,8 +19,10 @@ nav, li,a{
 
 .window-big{
     width: 90%; /*for now*/
+    margin: 0 auto;
 }
 .window-medium{
+    margin: 0 auto;
     width: 80%; /*for now*/
 }
 
