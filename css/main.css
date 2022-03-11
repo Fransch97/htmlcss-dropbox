@@ -69,3 +69,26 @@
     
 }
 /*END SECTION FOUR  */
+
+
+
+
+
+/* SECTION FIVE  */
+.section-five ul li{
+    display: block;
+}
+.section-five ul li .five-li{
+    width: 90%;
+}
+.section-five ul li .five-li p{
+    display: none;
+}
+
+
+/* SECTION FIVE  */
+
+
+
+
+
