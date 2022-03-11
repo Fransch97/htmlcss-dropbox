@@ -4,17 +4,17 @@
 
 /* MAIN  */
 
-/* first section  */
+/* FIRST SECTION  */
 .form-section{
     padding: 100px 0;
 }
 
 /* options  */
 .col-option{
-    width: calc(100%/3 - 10%);
+    width: calc(100%/3 - 5%);
 }
 .center{
-    margin: 0 15%;
+    margin: 0 5%;
 }
 .option-li{
     display: block;
@@ -26,3 +26,25 @@
     width: 100%;
     margin-top:  2%;
 }
+
+/*END FIRST SECTION  */
+
+
+
+
+/* SECTION TWO  */
+.section-two .window-small img{
+    width: 48%;
+}
+
+.section-two .window-small div{
+    width: 48%;
+}
+
+
+/*END SECTION TWO  */
+
+
+/* SECTION THREE  */
+
+/*END SECTION THREE  */
