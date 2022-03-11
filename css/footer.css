@@ -1,3 +1,14 @@
 /* body{
     background-color: red;
 } */
+
+/* FOOTER  */
+
+/* footer-top */
+footer div div ul li {
+    display: block;
+    line-height: 25px;
+}
+footer div div ul{
+    width: calc(100%/5);
+}
