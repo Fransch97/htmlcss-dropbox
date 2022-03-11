@@ -177,21 +177,49 @@ hr{
 
 
 /* SECTION THREE  */
+                            /* 
+                            works look at option part deom css
+                            .center{
+                                margin: 0 5%;
+                            } */
+
 .col-section-three{
     width: calc(100%/3 - 5%);
 
 }
 .col-section-three img{
     width: 100%;
+    padding-top: 60px ;
+
 }
 
-                                    /* 
-                                    works look at option part deom css
-                                    .center{
-                                        margin: 0 5%;
-                                    } */
+.section-three .window-small .title{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.section-three .window-small h2{
+    margin: 20px 0;
+    font-weight: 800;
+}
+
+.section-three .window-small p{
+    line-height: 25px;
+    font-weight: 600;
+
+}
 
 /*END SECTION THREE  */
+
+
+
+
+
+
+
+
+
+
 
 
 /* SECTION FOUR  */
