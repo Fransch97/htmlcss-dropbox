@@ -268,15 +268,9 @@ section .scrollcontainer{
     overflow: scroll;
 
 }
-
-
-
-
-
-
-
-
-
+.section-four aside .cubic .white{
+    color: white;
+}
 
 /*END SECTION FOUR  */
 
@@ -285,6 +279,10 @@ section .scrollcontainer{
 
 
 /* SECTION FIVE  */
+.section-five{
+    background-color: #BDCDE4 ;
+}
+
 .section-five ul li{
     display: block;
 }
@@ -295,8 +293,19 @@ section .scrollcontainer{
     display: none;
 }
 
+.section-five .window-small h1{
+    font-size: 2rem;
+    font-weight: 900;
+    width: 400px;
+}
 
-
+.section-five .window-small .button-five{
+    background-color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
 
 
 /* SECTION FIVE  */
