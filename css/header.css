@@ -26,16 +26,26 @@ li {
 nav li a{
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
+    line-height:25px;
+
+}
+
+nav li a:hover{
+    border-bottom: solid 2px black;
 }
 
 nav li a.extra{
-    background-color: blue;
+    background-color: #0061FF;
     line-height: 30px;
     color: white;
-    padding: 0 8px;
+    padding: 0 20px;
 }
+nav li a.extra:hover{
+    opacity: 0.7;
+    border-bottom: none;
 
+}
 
 
 
@@ -43,7 +53,7 @@ nav li a.extra{
 .jumbo{
     margin-top: 80px;
     padding: 50px 0;
-    background-color: #dce1e8;
+    background-color: #B4D0E7;
 }
 
 .jumbo-content .col-container{
@@ -51,26 +61,28 @@ nav li a.extra{
 }
 
 .jumbo-content h1 {
-    font-size: 5rem;
-    font-weight: 600;
+    font-size: 5.8rem;
 }
 
 .jumbo-content p{
-    line-height: 20px;
-    font-weight: 600;
+    line-height: 25px;
+    font-weight: 400;
 }
 
 .jumbo-content .link-container .extra{
-    background-color: blue;
+    background-color: #0061FF;
     line-height: 40px;
     color: white;
     padding: 0 20px;
     text-decoration: none;
     margin-top: 30px;
     margin-bottom: 10px;
-    font-weight: 800;
+    font-weight: 500;
 }
+.jumbo-content .link-container .extra:hover{
+    opacity: 0.7;
 
+}
 .icon-arrow-down{
     font-size: 40px;
     padding: 40px 0;

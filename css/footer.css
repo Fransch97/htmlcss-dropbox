@@ -8,17 +8,29 @@
 footer{
     background-color: black;
     color: white;
+    padding-top: 100px;
+    padding-bottom: 40px ;
 }
 footer div div ul li {
     display: block;
     line-height: 25px;
-    font-weight: 600;
 }
 footer div div ul li a{
     text-decoration: none;
     color: white;
-    font-size: 0.7rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+
 }
+
+footer div div ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+
+
 footer div div ul{
     width: calc(100%/5);
 }
@@ -27,7 +39,7 @@ footer .window-small.two-footer{
     width: 68%;
 }
 footer div div ul li h3{
-    font-weight: 900;
     padding-bottom: 20px;
+    font-size: 1.6rem;
 
 }

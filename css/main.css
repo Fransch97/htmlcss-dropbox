@@ -39,14 +39,24 @@
     font-size: 2.5rem;
     margin-top: 80px;
     padding: 40px 0;
-    font-weight: 900;
+    font-weight: 600;
 }
 
-.form-section span{
+.form-section label{
     display: inline-block;
     padding-bottom: 40px;
     margin-right: 20px;
+    
 }
+
+.form-section input[type="radio"]{
+    background-color: white;
+    color: white;
+}
+
+
+
+
 
 .col-option .padding-col-option{
     padding: 30px 30px 200px 30px;
@@ -62,10 +72,15 @@
 .col-option .padding-col-option ul li,
 .col-option .padding-col-option span{
     padding: 10px 0;
+}
+
+.col-option .padding-col-option .price{
     font-weight: 800;
 }
 
-
+.col-option .padding-col-option .duration{
+    color: gray;
+}
 
 
 .col-option .padding-col-option ul li{
@@ -73,29 +88,39 @@
 }
 
 .col-option .padding-col-option ul li.second{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 550;
 }
 
 .col-option .padding-col-option ul li .try-free{
-    background-color: blue;
+    background-color: #0061FF;
     line-height: 30px;
     color: white;
-    padding: 5px 30px;
+    padding: 5px 0;
+    display: block;
+text-align: center;
     text-decoration: none;
     margin-top: 30px;
 }
 
 .col-option .padding-col-option ul li .try-free-second{
-    color: blue;
+    color: #0061FF;
 }
+
+.col-option .padding-col-option ul li .try-free:hover,
+.col-option .padding-col-option ul li .try-free-second:hover
+{
+    opacity: 0.7;
+}
+
+
+
 
 .col-option .padding-col-option ul li.first-second{
     font-weight: 800 ;
 }
 
-.col-option .padding-col-option ul li.second::before{
-    content: "\02713";
-}
+
 
 hr{
     width: 60px; 
@@ -128,12 +153,16 @@ hr{
 }
 
 .col-bottom .last-col-padding .try-free{
-    background-color: blue;
+    background-color: #0061FF;
     line-height: 30px;
     color: white;
-    padding: 5px 30px;
+    padding: 5px 80px;
     text-decoration: none;
-    font-weight: 800;
+}
+
+.col-bottom .last-col-padding .try-free:hover
+{
+    opacity: 0.7;
 }
 
 
@@ -157,7 +186,7 @@ hr{
 
 .section-two .window-small .float-right p{
     margin: 30px 0;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 25px;
 }
 
@@ -171,8 +200,16 @@ hr{
 .section-two .window-small .float-right .button a{
     text-decoration: none;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
 }
+
+.section-two .window-small .float-right .button a:hover,
+.section-two .window-small .float-right .button:hover
+{
+    border-color: grey ;
+    opacity: 0.7;
+}
+
 /*END SECTION TWO  */
 
 
@@ -205,7 +242,7 @@ hr{
 
 .section-three .window-small p{
     line-height: 25px;
-    font-weight: 600;
+    font-weight: 500;
 
 }
 
@@ -213,18 +250,26 @@ hr{
 
 
 /* TITLE  */
-.titles{
-    padding: 50px 0;
-}
 
 .extra-small{
     width: 40%;
-    font-size: 1.2rem;
-    font-weight: 800;
 }
 
+.extra-small h1{
+    font-size: 2.6rem;
+}
+
+
 .extra-small a{
-    color: blue;
+    padding: 40px 0;
+    color: #0061FF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.extra-small a:hover
+{
+    opacity: 0.7;
 }
 
 
@@ -246,11 +291,91 @@ hr{
     height: 50vh;
     background-color: #F5F5F5;
 }
+
+/* MINI cubic section (thing gona crazy lol ) */
 .section-four aside .cubic{
     height: 50%;
     width: 50%;
     text-align: center;
+    fill: white;    
+
 }
+.section-four aside .cubic path{
+    fill: white;
+}
+
+
+
+/* one  */
+.section-four aside .cubic.one{
+    background-color: #A2D39B;
+    border: 15px solid #A2D39B; 
+
+}
+
+/* two  */
+.section-four aside .cubic.two{
+    background-color: #61082B;
+    border: 15px solid #61082B; 
+
+}
+
+/* three  */
+.section-four aside .cubic.three{
+    background-color: #0093CE;
+    border: 15px solid #0093CE; 
+}
+
+/* four  */
+.section-four aside .cubic.four{
+    background-color: #FF1C1C;
+    border: 15px solid #FF1C1C; 
+}
+
+/* five  */
+.section-four aside .cubic.five{
+    background-color: #D5001F;
+    border: 15px solid #D5001F; 
+}
+
+/* six  */
+.section-four aside .cubic.six{
+    background-color: #B4D0E7;
+    border: 15px solid #B4D0E7; 
+}
+
+/* seven  */
+.section-four aside .cubic.seven{
+    background-color: #0D2481;
+    border: 15px solid #0D2481; 
+}
+
+/* eight  */
+.section-four aside .cubic.eight{
+    background-color: #FFD830;
+    border: 15px solid #FFD830; 
+}
+/* 
+three
+#0093CE
+ FOUR
+#FF1C1C
+FIVE
+#D5001F
+SIX
+#B4D0E7
+SEVEN
+#0D2481 */
+/* EIGHT */
+/* #FFD830 */
+
+.section-four aside .cubic:hover{
+    border: 15px solid rgba(255, 255, 255, 0.582);
+}
+
+/* END MINI CUBIC LOL  */
+
+
 
 .content-section-four{
     padding: 40px;
@@ -261,16 +386,13 @@ hr{
 }
 
 .content-section-four p {
-    font-weight: 800;
+    font-weight: 500;
     padding: 30px 0;
 }
-section .scrollcontainer{
-    overflow: scroll;
 
-}
-.section-four aside .cubic .white{
-    color: white;
-}
+
+
+
 
 /*END SECTION FOUR  */
 
@@ -295,8 +417,8 @@ section .scrollcontainer{
 
 .section-five .window-small h1{
     font-size: 2rem;
-    font-weight: 900;
     width: 400px;
+    color: #61082B;
 }
 
 .section-five .window-small .button-five{
@@ -304,10 +426,17 @@ section .scrollcontainer{
     padding: 10px 40px;
     text-decoration: none;
     color: black;
-    font-weight: 800;
+}
+.section-five .window-small .button-five:hover{
+    opacity: 0.7;
 }
 
-
+.section-five ul li .icon-five i{
+    margin-right: 40px;
+}
+.section-five ul li:hover p{
+    display: block;
+}
 /*END SECTION FIVE  */
 
 .section-five.section-padding.six{
