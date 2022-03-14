@@ -46,14 +46,28 @@
     display: inline-block;
     padding-bottom: 40px;
     margin-right: 20px;
+    margin-right: 20px;
     
 }
 
-.form-section input[type="radio"]{
-    background-color: white;
-    color: white;
+input[type="radio"]{
+    display: none;
 }
 
+label:before{
+    content: " ";
+    padding: 0 9px;
+    /* width: 15px;
+    height: 15px; */
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+input[type="radio"]:checked + label::before{
+    border: 5px solid blue;
+
+}
 
 
 
@@ -288,7 +302,7 @@ hr{
     
 }
 .section-four{
-    height: 50vh;
+    height: 25vw;
     background-color: #F5F5F5;
 }
 
@@ -297,8 +311,6 @@ hr{
     height: 50%;
     width: 50%;
     text-align: center;
-    fill: white;    
-
 }
 .section-four aside .cubic path{
     fill: white;
@@ -309,51 +321,51 @@ hr{
 /* one  */
 .section-four aside .cubic.one{
     background-color: #A2D39B;
-    border: 15px solid #A2D39B; 
+    /* border: 15px solid #A2D39B;  */
 
 }
 
 /* two  */
 .section-four aside .cubic.two{
     background-color: #61082B;
-    border: 15px solid #61082B; 
+    /* border: 15px solid #61082B;  */
 
 }
 
 /* three  */
 .section-four aside .cubic.three{
     background-color: #0093CE;
-    border: 15px solid #0093CE; 
+    /* border: 15px solid #0093CE;  */
 }
 
 /* four  */
 .section-four aside .cubic.four{
     background-color: #FF1C1C;
-    border: 15px solid #FF1C1C; 
+    /* border: 15px solid #FF1C1C;  */
 }
 
 /* five  */
 .section-four aside .cubic.five{
     background-color: #D5001F;
-    border: 15px solid #D5001F; 
+    /* border: 15px solid #D5001F;  */
 }
 
 /* six  */
 .section-four aside .cubic.six{
     background-color: #B4D0E7;
-    border: 15px solid #B4D0E7; 
+    /* border: 15px solid #B4D0E7;  */
 }
 
 /* seven  */
 .section-four aside .cubic.seven{
     background-color: #0D2481;
-    border: 15px solid #0D2481; 
+    /* border: 15px solid #0D2481;  */
 }
 
 /* eight  */
 .section-four aside .cubic.eight{
     background-color: #FFD830;
-    border: 15px solid #FFD830; 
+    /* border: 15px solid #FFD830;  */
 }
 /* 
 three
@@ -370,7 +382,8 @@ SEVEN
 /* #FFD830 */
 
 .section-four aside .cubic:hover{
-    border: 15px solid rgba(255, 255, 255, 0.582);
+    border: 15px solid rgba(255, 255, 255, 0.364);
+    cursor:crosshair;
 }
 
 /* END MINI CUBIC LOL  */
@@ -379,7 +392,14 @@ SEVEN
 
 .content-section-four{
     padding: 40px;
+    height: 100%;
+    overflow: hidden;
 }
+
+.content-section-four:hover{
+    overflow: scroll;
+}
+
 
 .content-section-four .contains-logo{
     width: 100px;
@@ -387,7 +407,7 @@ SEVEN
 
 .content-section-four p {
     font-weight: 500;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 
@@ -434,8 +454,22 @@ SEVEN
 .section-five ul li .icon-five i{
     margin-right: 40px;
 }
+
+.section-five ul li .icon-five .fa-chevron-up{
+    display: none;
+}
+
+
+
 .section-five ul li:hover p{
     display: block;
+}
+
+.section-five ul li:hover .fa-chevron-up{
+    display: inline-block;
+}
+.section-five ul li:hover .fa-chevron-down{
+    display: none;
 }
 /*END SECTION FIVE  */
 

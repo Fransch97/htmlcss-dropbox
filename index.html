@@ -27,7 +27,7 @@
     <!-- HEADER -->
     <header  >
         <!-- NAV  -->
-        <nav class="fixed clearfix width100 ">
+        <nav class="fixed clearfix width100 "  style="height:80px;">
             <!-- nav left  -->
             <ul class="float-left">
                 <li><a class="logo" href=""><img src="img/img/logo-small.png" alt=""></a></li>
@@ -38,11 +38,29 @@
             <!--end nav left  -->
 
             <!-- nav lirght  -->
-            <ul class="float-right">
-                <li><a href="">Supporto</a></li>
-                <li><a href="">Contatta l'ufficio vendite</a></li>
-                <li><a href="">accedi</a></li>
-                <li><a class="extra" href="">Inizia</a></li>
+            <ul class="float-right width">
+                <li class="support" class="float-left">
+                    <ul style="width: 70px; background-color: white;">
+                        <li  style="display: inline-block; "><a  href="">Supporto</a></li>
+                        <li class="hidden">
+                            <ul>
+                                <li style="width: 150px; background-color: white;"  class="nav-hover"><a  href="">non</a></li>
+                                <li style="width: 150px; background-color: white;"  class="nav-hover support" ><a  href="">ricordo</a></li>
+                                <li style="width: 150px; background-color: white;"  class="nav-hover support"><a  href="">cosa</a></li>
+                                <li style="width: 150px; background-color: white;"  class="nav-hover support"><a  href="">cera</a></li>
+                                <li style="width: 150px; background-color: white;"  class="nav-hover support"><a  href="">qua</a></li>
+                                <li style="width: 150px; background-color: white;"  class="nav-hover support"><a  href="">lol</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="float-right">
+                    <ul>
+                        <li><a href="">Contatta l'ufficio vendite</a></li>
+                            <li><a href="">accedi</a></li>
+                            <li><a class="extra" href="">Inizia</a></li>
+                    </ul>
+                </li>
             </ul>
             <!--end nav lirght  -->
         </nav>
@@ -57,9 +75,9 @@
         <div class="jumbo">
             <div class="jumbo-content window-medium">
                  <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                 <div class="col-container" style="height: 20vw;">
+                 <div class="col-container" style="height: 22vw;">
                      
-                     <div class="float-left col" style="width: 24.5%;">
+                     <div class="float-left col" >
                         <p>
                             Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.
                         </p>
@@ -74,7 +92,7 @@
 
 
                      
-                         <img class="float-right" style="width: 60%;" src="img/img/jumbo.png" alt="">
+                         <img class="float-right" style="width: 65%;" src="img/img/jumbo.png" alt="">
                        
                  </div>
             </div>
@@ -104,10 +122,8 @@
             <form action="" class="window-small clearfix">
                 <!-- top  -->
                 <h1>Trova il piano Dropbox Nusiness che fa per te</h1>
-                <input type="radio" class="banana">
-                <label>Fatturazione mensile</label>
-                <input type="radio" class="banana">
-                <label>Fatturazione annual</label>
+                <input id="mounth" type="radio" class="banana" name="time"><label name="time" for="mounth">Fatturazione mensile</label>
+                <input id="year" type="radio" class="banana" name="time"><label  name="time" for="year">Fatturazione annual</label>
                 <!--end top  -->
 
                 <!-- options  -->
@@ -339,13 +355,13 @@
                     </div>
 
                     <div class="col-section-three float-left center">
-                        <img src="img/img/business-feature-coordinate-it.png" alt="">
+                        <img src="img/img/business-feature-send-files-it.png" alt="">
                         <h2>Passa di meno da uno strumento all'altro</h2>
                         <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Mircrosoft Office e <u>Dropbox Paper </u> direttamente da Dropbox</p>
                     </div>
 
                     <div class="col-section-three float-left">
-                        <img src="img/img/business-feature-coordinate-it.png" alt="">
+                        <img src="img/img/business-feature-security.png" alt="">
                         <h2>Passa di meno da uno strumento all'altro</h2>
                         <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Mircrosoft Office e <u>Dropbox Paper </u> direttamente da Dropbox</p>
                     </div>
@@ -396,8 +412,8 @@
                 </div>
 
 
-                <div class="cubic three float-left ">
-                    <img src="img/img/university_of_florida.svg" alt="" style="width: 50%; margin-top: 100px; color: red;">
+                <div class="cubic three  float-left ">
+                    <img src="img/img/university_of_florida.svg" alt="" style="width: 50%; margin: 45% 0; color: red; filter: invert(1);">
                 </div>
 
 
@@ -521,11 +537,14 @@
                 <li class="clearfix">
                     <div class=" float-left five-li">
                         <h4>Qual è la differenza tra Dropbox Business Standart e Dropbox Business Advanced? </h4>
-                        <p>Buh! Spavento eeeeh ;P</p>
+                        <p><img src="https://www.focusjunior.it/content/uploads/site_stored/imgs/0001/030/troll5.jpg" alt="" style="width: 10%;">
+                            Buh! Spavento eeeeh ;P  non pensarci, compra quello che costa di più ;D
+                        </p>
 
                     </div>
                     <div class="float-right icon-five ">
                         <i class="fa-solid fa-chevron-down" style="font-size: 20px;"></i>
+                        <i class="fa-solid fa-chevron-up" style="font-size: 20px;"></i>
                     </div>
                 </li>
                 <li>
@@ -535,11 +554,16 @@
                 <li class="clearfix">
                     <div class=" float-left five-li">
                         <h4>Qual è la differenza tra Dropbox Business Standart e Dropbox Business Advanced? </h4>
-                        <p>Buh! Spavento eeeeh ;P</p>
+                        <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG1KVQR2QYSRvLyyqNwksLRuplQytba8n4pMALBeXVhCp8JpsrF01EkSwP9-iY2_aOniU&usqp=CAU" alt="" style="width: 10%;">
+                            Buh! Spavento eeeeh ;P  non pensarci, compra quello che costa di più ;D
+                        </p>
+                     
 
                     </div>
                     <div class="float-right icon-five ">
                         <i class="fa-solid fa-chevron-down" style="font-size: 20px;"></i>
+                        <i class="fa-solid fa-chevron-up" style="font-size: 20px;"></i>
+
                     </div>
                 </li>
                 <li>
@@ -549,11 +573,15 @@
                 <li class="clearfix">
                     <div class=" float-left five-li">
                         <h4>Qual è la differenza tra Dropbox Business Standart e Dropbox Business Advanced? </h4>
-                        <p>Buh! Spavento eeeeh ;P</p>
+                        <p><img src="https://www.pngkit.com/png/detail/17-177150_trollface-computer-troll-face-computer-gif.png" alt="" style="width: 15%;">
+                            Buh! Spavento eeeeh ;P  non pensarci, compra quello che costa di più ;D
+                        </p>
 
                     </div>
                     <div class="float-right icon-five ">
                         <i class="fa-solid fa-chevron-down" style="font-size: 20px;"></i>
+                        <i class="fa-solid fa-chevron-up" style="font-size: 20px;"></i>
+
                     </div>
                 </li>
                 <li>
@@ -563,11 +591,15 @@
                 <li class="clearfix">
                     <div class=" float-left five-li">
                         <h4>Qual è la differenza tra Dropbox Business Standart e Dropbox Business Advanced? </h4>
-                        <p>Buh! Spavento eeeeh ;P</p>
+                        <p style="text-align: center;"><img src="https://68.media.tumblr.com/4c54244af420c6b6a9a4fab56d9daf28/tumblr_mip98fqHYX1s64c5co1_500.gif" alt="" style="width: 70%;">
+                            
+                        </p>
 
                     </div>
                     <div class="float-right icon-five ">
                         <i class="fa-solid fa-chevron-down" style="font-size: 20px;"></i>
+                        <i class="fa-solid fa-chevron-up" style="font-size: 20px;"></i>
+
                     </div>
                 </li>
                 <li>
