@@ -321,21 +321,33 @@ hr{
 /* one  */
 .section-four aside .cubic.one{
     background-color: #A2D39B;
+    /* border: 15px solid rgba(255, 255, 255, 0.364); */
     /* border: 15px solid #A2D39B;  */
 
 }
-
+.content-section-four #one-img{
+    display: none;
+}
 /* two  */
 .section-four aside .cubic.two{
     background-color: #61082B;
     /* border: 15px solid #61082B;  */
-
 }
+
+.content-section-four #two-img{
+    display: none;
+}
+
+
+
 
 /* three  */
 .section-four aside .cubic.three{
     background-color: #0093CE;
     /* border: 15px solid #0093CE;  */
+}
+.content-section-four #three-img{
+    display: none;
 }
 
 /* four  */
@@ -343,11 +355,17 @@ hr{
     background-color: #FF1C1C;
     /* border: 15px solid #FF1C1C;  */
 }
+.content-section-four #four-img{
+    display: none;
+}
 
 /* five  */
 .section-four aside .cubic.five{
     background-color: #D5001F;
     /* border: 15px solid #D5001F;  */
+}
+.content-section-four #five-img{
+    display: none;
 }
 
 /* six  */
@@ -355,17 +373,24 @@ hr{
     background-color: #B4D0E7;
     /* border: 15px solid #B4D0E7;  */
 }
-
+.content-section-four #six-img{
+    display: none;
+}
 /* seven  */
 .section-four aside .cubic.seven{
     background-color: #0D2481;
     /* border: 15px solid #0D2481;  */
 }
-
+.content-section-four #seven-img{
+    display: none;
+}
 /* eight  */
 .section-four aside .cubic.eight{
     background-color: #FFD830;
     /* border: 15px solid #FFD830;  */
+}
+.content-section-four #eight-img{
+    display: none;
 }
 /* 
 three
@@ -381,10 +406,58 @@ SEVEN
 /* EIGHT */
 /* #FFD830 */
 
-.section-four aside .cubic:hover{
+/* .section-four aside .cubic:hover{
     border: 15px solid rgba(255, 255, 255, 0.364);
     cursor:crosshair;
+} */
+
+/* .section-four::before {
+    content: "";
+    display: table;
+    clear: both;
+    height: 500px;
+    margin:  -500px;
+    }
+     */
+
+
+
+
+.section-four aside .cubic:active .cubic.one{
+    border: 15px solid rgba(255, 255, 255);
+
 }
+
+.section-four aside .cubic:focus{
+    border: 15px solid rgba(255, 255, 255, 0.364);
+
+}
+#one-img:target{
+    display: block;
+}
+
+#two-img:target{
+    display: block;
+}
+#three-img:target{
+    display: block;
+}
+#four-img:target{
+    display: block;
+}
+#five-img:target{
+    display: block;
+}
+#six-img:target{
+    display: block;
+}
+#seven-img:target{
+    display: block;
+}
+#eight-img:target{
+    display: block;
+}
+
 
 /* END MINI CUBIC LOL  */
 
