@@ -10,28 +10,9 @@
 }
 
 /* options  */
-.col-option{
-    width: calc(100%/3 - 5%);
-    border: 1px solid lightgrey;
 
-}
-
-.col-option .icon{
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid lightgrey;
-}
-
-.center{
-    margin: 0 5%;
-}
-.option-li{
-    display: block;
-    line-height: 20px;
-}
-
-
-.form-section h1{
+ /* input radio  */
+ .form-section h1{
     font-size: 2.5rem;
     margin-top: 80px;
     padding: 40px 0;
@@ -64,11 +45,42 @@ input[type="radio"]:checked + label::before{
     border: 5px solid blue;
 
 }
+ /*end input radio  */
 
 
 
 
-.col-option .padding-col-option{
+
+ /* generals */
+ .col-option{
+     width: calc(100%/3 - 5%);
+     border: 1px solid lightgrey;
+ }
+ .col-option .icon{
+     text-align: center;
+     padding: 10px 0;
+     border-bottom: 1px solid lightgrey;
+ }
+ .center{
+     margin: 0 5%;
+ }
+ .option-li{
+     display: block;
+     line-height: 20px;
+ }
+
+ .option-li{
+     margin: 0;
+ }
+
+ .option-li p{
+     width: 85%; margin-top: -13px; margin-left: 5px;
+ }
+ .fa-check{
+     color: #0061FF ;
+ }
+
+ .col-option .padding-col-option{
     padding: 30px 30px 200px 30px;
 
 }
@@ -94,7 +106,6 @@ input[type="radio"]:checked + label::before{
 
 
 .col-option .padding-col-option ul li{
-    margin-left: 0px ;
 }
 
 .col-option .padding-col-option ul li.second{
@@ -108,7 +119,7 @@ input[type="radio"]:checked + label::before{
     color: white;
     padding: 5px 0;
     display: block;
-text-align: center;
+    text-align: center;
     text-decoration: none;
     margin-top: 30px;
 }
@@ -407,19 +418,32 @@ SEVEN
 /* EIGHT */
 /* #FFD830 */
 
-/* .section-four aside .cubic:hover{
+/* 
+    this was wit hover for the border
+
+
+
+    .section-four aside .cubic:hover{
     border: 15px solid rgba(255, 255, 255, 0.364);
     cursor:crosshair;
 } */
 
-/* .section-four::before {
-    content: "";
-    display: table;
-    clear: both;
-    height: 0;
-    margin-top:  80px;
-    }
-     */
+/* 
+    it was for the link of ".cubic" to make margin but didn't work, to let this work need to elaborate de intire structure of section four
+
+    .section-four::before {
+        content: "";
+        display: table;
+        clear: both;
+        height: 0;
+        margin-top:  80px;
+        }
+
+
+
+
+
+*/
 
 
 
@@ -450,7 +474,7 @@ SEVEN
     display: block;
 }
 #four-img:target{
-    display: lock;
+    display: block;
 }
 #five-img:target{
     display: block;
@@ -489,11 +513,6 @@ SEVEN
     font-weight: 500;
     padding: 30px;
 }
-
-
-
-
-
 /*END SECTION FOUR  */
 
 
