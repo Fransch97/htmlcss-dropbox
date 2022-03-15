@@ -12,6 +12,10 @@
 }
 .support:hover .hidden{
     display: inline-block;
+    
+}
+.ul-hidden-list{
+    width: 70px; background-color: white;
 }
 /* nav  */
 nav{
@@ -20,7 +24,7 @@ nav{
     border-bottom: 1px solid lightgray;
 }
 li {
-    line-height: 80px;
+    line-height: 79px;
     margin: 0 20px;
 }
 
@@ -32,12 +36,20 @@ nav li a{
     text-decoration: none;
     color: black;
     font-weight: 500;
-    line-height:25px;
+    line-height:79px;
 
 }
 
-nav li a:hover{
+nav li a.underline-bottom:hover{
     border-bottom: solid 2px black;
+}
+li .hidden a:hover{
+    border-bottom: solid 2px black;
+}
+
+li .hidden li{
+    width: 150px; 
+    background-color: white
 }
 
 nav li a.extra{
