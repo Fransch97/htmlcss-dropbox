@@ -149,6 +149,11 @@ hr{
     color: lightgray;
 }
 
+
+
+
+
+
 /* last col-option */
 
 .col-bottom{
@@ -197,6 +202,17 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* SECTION TWO  */
 .section-two .window-small img{
     width: 58%;
@@ -239,12 +255,28 @@ hr{
 /*END SECTION TWO  */
 
 
+
+
+
+
+
+
+
+
+
+
 /* SECTION THREE  */
+
+
+
+
+
                             /* 
                             works look at option part deom css
                             .center{
                                 margin: 0 5%;
                             } */
+
 
 .col-section-three{
     width: calc(100%/3 - 5%);
@@ -275,6 +307,14 @@ hr{
 /*END SECTION THREE  */
 
 
+
+
+
+
+
+
+
+
 /* TITLE  */
 
 .extra-small{
@@ -297,6 +337,7 @@ hr{
 {
     opacity: 0.7;
 }
+/*END TITLE  */
 
 
 
@@ -488,10 +529,7 @@ SEVEN
 #eight-img:target{
     display: block;
 }
-
-
-/* END MINI CUBIC LOL  */
-
+/* end mini cubic  */
 
 
 .content-section-four{
@@ -518,8 +556,8 @@ SEVEN
 
 
 
-
 /* SECTION FIVE  */
+
 .section-five{
     background-color: #BDCDE4 ;
 }
@@ -572,7 +610,7 @@ SEVEN
 }
 /*END SECTION FIVE  */
 
-.section-five.section-padding.six{
+.section-five.section-padding.five{
     background-color: white;
 }
 
